@@ -8,7 +8,8 @@ Project link is available at [Crypto-Calculator](https://b1gb4db4ng.github.io/Cr
 
 ## 2. Description
 
-The Crypto-Calculator uses [The Coingecko API](https://www.coingecko.com/en/api) and brings coins and its informations.
+The Crypto-Calculator uses [The Coingecko API](https://www.coingecko.com/en/api) 
+Brings coins and its informations and calculate user input.
 
 ## 3. Structure Tree
 
