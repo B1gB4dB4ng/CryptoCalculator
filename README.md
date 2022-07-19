@@ -12,7 +12,7 @@ The Crypto-Calculator uses [The Coingecko API](https://www.coingecko.com/en/api)
 
 ## 3. Structure Tree
 
-(./public/Structure1.png)
+![](./public/Structure1.png)
 
 ## 4. Application
 
