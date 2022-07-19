@@ -16,9 +16,9 @@ export async function createCoinBox(currentID) {
     infoBox.classList.add("info-box");
     infoBox.innerHTML = String.raw`
         <p id="name">${coin.name}</p>
-        <p >Current Price: <span id="price">${currentPriceOfCoin}<span></p>
-        <p id="allTime">All time high price:${coin.ath}</p>
-        <p id="priceChange">In 24 hours:${coin.price_change_percentage_24h}%</p>
+        <p >Current Price: <span id="price">  ${currentPriceOfCoin}$<span></p>
+        <p id="allTime">All time high price: ${coin.ath}$</p>
+        <p id="priceChange">In 24 hours: ${coin.price_change_percentage_24h}%</p>
         <img class="coin-img" src="${coin.image}"></img>
         <div id="calculate-box"><br><label>Please write amount of money you want to invest</label><br><br>
         <div id="calculate-div">
