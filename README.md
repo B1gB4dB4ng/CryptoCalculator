@@ -2,7 +2,7 @@
 
 ## 1. Link and Preview
 
-Project link is available at [Crypto-Calculator](https://B1gB4dB4ng.github.io/CryptoCalculator/index.html)
+Project link is available at [Crypto-Calculator](https://b1gb4db4ng.github.io/CryptoCalculator/)
 
 
 
