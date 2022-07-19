@@ -25,15 +25,16 @@ The Crypto-Calculator uses [The Coingecko API](https://www.coingecko.com/en/api)
 
 ## 5. Must Haves
 
-- A user should be able to sign up with email/username and password.
-- A user should be able to sign in with the email/username and password.
-- A user should get error messages if the email/username or password is wrong.
-- A user should be able to chose of the coins  and see related informations.
-- A user should be able to calculate how many choosen coin can user buy with the money user want to invest.
+
+- User should get error messages if the email/username or password is wrong.
+- User should be able to chose of the coins  and see related informations.
+- User should be able to calculate how many choosen coin can user buy with the money user want to invest.
 
 ## 6. Nice-to Have
 
-- A user can  see username/email on screen after login .
+- User can  see username/email on screen after login .
+- User should be able to sign up with email/username and password.
+- User should be able to sign in with the email/username and password.
 
 
 # Crypto-Calculator
