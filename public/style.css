@@ -201,8 +201,7 @@ form {
 
 .invalid-msg {
   width: 100%;
-  position: absolute;
-  top: 80%;
+
   color: white;
 }
 
