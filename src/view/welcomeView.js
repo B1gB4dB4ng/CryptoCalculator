@@ -17,7 +17,7 @@ export const createWelcomeElement = () => {
     <button class="sign-btn" id="SignUpBtn">Sign up</button>
 <button class="sign-btn" id="${SUBMIT_USER_INFOS}">Sign in</button>
 </div>
-
+<div class="errorBox"></div>
     `;
 
   return containerElement;

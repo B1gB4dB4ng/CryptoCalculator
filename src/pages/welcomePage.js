@@ -30,14 +30,14 @@ const start = () => {
 
   if (localStorage.getItem("mail") === null) {
     const emptyMsg = document.createElement("div");
-    const loginContainer = document.querySelector(".main-container");
+    const loginContainer = document.querySelector(".errorBox");
     emptyMsg.classList.add("invalid-msg");
     emptyMsg.innerHTML = String.raw`
   <p>Please type your informations</p>`;
     loginContainer.appendChild(emptyMsg);
   } else {
     const invalidMsg = document.createElement("div");
-    const loginContainer = document.querySelector(".main-container");
+    const loginContainer = document.querySelector(".errorBox");
     invalidMsg.classList.add("invalid-msg");
     invalidMsg.innerHTML = String.raw`
   <p>Please type valid user informations </p>`;
