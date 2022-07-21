@@ -1,3 +1,4 @@
+//Creating user infobox to show user email or username on the app page s
 export const createUserInfoBox = () => {
   const userInterface = document.getElementById("user-interface");
   const registeredMail = window.localStorage.getItem("mail");

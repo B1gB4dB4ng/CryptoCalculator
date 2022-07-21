@@ -1,9 +1,10 @@
 export function createCalculate() {
   const outputs = document.querySelectorAll(".math-result");
-
+  //removing result of calculation if exist
   outputs.forEach((output) => {
     output.remove();
   });
+
   const infoBox = document.querySelector(".info-box");
   const coinName = document.querySelector("#name").textContent;
   const userMoney = document.getElementById("money-input").value;

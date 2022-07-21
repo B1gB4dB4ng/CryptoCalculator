@@ -9,7 +9,7 @@ export async function fetchData(url) {
 
   return data;
 }
-
+//getting data  from api
 export async function getCoins(data) {
   const urlApi =
     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false&price_change_percentage=1#";
@@ -17,6 +17,7 @@ export async function getCoins(data) {
     try {
       data = await fetchData(urlApi);
       const results = data;
+      //Creating mainbox and navBox
       const userInterface = document.getElementById("user-interface");
       const mainBox = document.createElement("div");
       const navBox = document.createElement("div");
@@ -25,6 +26,7 @@ export async function getCoins(data) {
       mainBox.classList.add("main-div");
       userInterface.appendChild(mainBox);
 
+      //creating div for each coin which I get from api
       results.forEach((coin) => {
         const symbol = coin.symbol;
         const option = document.createElement("div");
@@ -38,7 +40,7 @@ export async function getCoins(data) {
         `;
 
         navBox.appendChild(option);
-
+        //adding eventlistener to divs and setting createCoinBox function for them
         option.addEventListener("click", async () => {
           const currentID = option.getAttribute("id");
           createCoinBox(currentID);
